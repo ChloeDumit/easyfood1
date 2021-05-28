@@ -2,7 +2,7 @@ import React from "react";
 import "./itemList.css";
 import { Col } from "react-bootstrap";
 
-function ItemList({ name, price, photo, id, info, categ }) {
+function ItemList({ name, price, id, info, categ }) {
   return (
     <Col className="mx-auto art" xs="12" sm="6" md="4" lg="4" xl="4">
       <div className="itemCard">
@@ -22,9 +22,9 @@ function ItemList({ name, price, photo, id, info, categ }) {
             className="agregar snipcart-add-item"
             data-item-id={id}
             data-item-price={price}
-            data-item-url={`/categories/${categ}`}
+            data-item-url={`/categories/${categ}/${id}`}
             data-item-name={name}
-            data-item-image={`/assets/${photo}`}
+            data-item-image={`/assets/${name}.jpg`}
             data-item-description={info}
           >
             Add to cart
