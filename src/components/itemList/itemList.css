@@ -1,0 +1,38 @@
+.itemCard {
+  border-radius: 20px;
+  border-width: 10px;
+  border-color: #87a1b0;
+  border-style: solid;
+  text-align: center;
+  width: 300px;
+  height: 500px;
+  background-color: white;
+  margin-top: 60px;
+  padding: 15px;
+}
+.img-item {
+  width: 80%;
+  border: solid 4px #87a1b0;
+}
+
+.item-precio {
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+
+.agregar {
+  text-align: center;
+  margin-left: 10px;
+  background-color: #87a1b0;
+  border-radius: 30px;
+  border-width: 2px;
+  width: 70%;
+  height: 30px;
+  margin-top: 10px;
+  border: none;
+  margin-bottom: 20px;
+}
+.agregar:hover {
+  transform: scale(1.2, 1.2);
+}
