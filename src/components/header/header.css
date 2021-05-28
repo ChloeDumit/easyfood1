@@ -1,0 +1,39 @@
+.header-style {
+  background-color: #efefef;
+  margin-right: 0px;
+  margin-left: 0px;
+  height: 150px;
+}
+.logo {
+  max-width: 140px;
+  margin-left: 15px;
+  margin-top: 5px;
+  margin-bottom: auto;
+  margin-right: auto;
+}
+.button_header {
+  background-color: #87a1b0;
+  border-radius: 50px;
+  width: 200px;
+  height: 40px;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500px;
+  color: white;
+  float: right;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.button_header:hover {
+  transform: scale(0.8, 0.8) !important;
+}
+
+.buttonLink {
+  color: #efefef;
+  text-decoration: none;
+}
+.buttonLink:hover {
+  transform: scale(0.8, 0.8) !important;
+  color: #efefef;
+}
