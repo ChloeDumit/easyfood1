@@ -4,7 +4,7 @@ import { Col } from "react-bootstrap";
 
 function ItemList({ name, price, id, info, categ }) {
   return (
-    <Col className="mx-auto art" xs="12" sm="6" md="4" lg="4" xl="4">
+    <Col className="mx-auto" xs="12" sm="12" md="4" lg="4" xl="4">
       <div className="itemCard">
         <figure>
           <img
