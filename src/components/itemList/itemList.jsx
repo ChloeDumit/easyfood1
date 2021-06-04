@@ -2,8 +2,6 @@ import React from "react";
 import "./itemList.css";
 import { Col } from "react-bootstrap";
 import { Link } from 'react-router-dom'
-import _ from 'lodash';
-import { useParams } from "react-router-dom";
 
 function ItemList({ name, price, id, info, categ }) {
   let product_page = _.get(useParams(), 'product_page', null);
@@ -27,7 +25,7 @@ function ItemList({ name, price, id, info, categ }) {
             className="agregar snipcart-add-item"
             data-item-id={id}
             data-item-price={price}
-            data-item-url={_.get(product_page, '__metadata.urlPath', null)}
+            data-item-url={`/`}
             data-item-name={name}
             data-item-image={`/assets/${name}.jpg`}
             data-item-description={info}
