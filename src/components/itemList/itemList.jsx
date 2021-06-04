@@ -24,7 +24,7 @@ function ItemList({ name, price, id, info, categ }) {
             className="agregar snipcart-add-item"
             data-item-id={id}
             data-item-price={price}
-            data-item-url={`/categories/${categ}`}
+            data-item-url={`/categories/`}
             data-item-name={name}
             data-item-image={`/assets/${name}.jpg`}
             data-item-description={info}
