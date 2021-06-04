@@ -47,7 +47,7 @@ function ItemContainer() {
                 name={product.data.name}
                 price={product.data.price}
                 info={product.data.info}
-                categ={categ}
+                categ={product.data.category}
               />
             ))}
           </Row>

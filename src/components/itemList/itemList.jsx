@@ -1,6 +1,7 @@
 import React from "react";
 import "./itemList.css";
 import { Col } from "react-bootstrap";
+import { Link } from 'react-router-dom'
 
 function ItemList({ name, price, id, info, categ }) {
   return (
@@ -10,24 +11,25 @@ function ItemList({ name, price, id, info, categ }) {
           <img
             className="img-item"
             src={`/assets/${name}.jpg`}
-            alt={`${name} food"`}
+            alt={`${name}`}
           ></img>
         </figure>
         <div className="infoBox">
-          <h1>{name}</h1>
+          
+          <h1> 
+            <Link to={`/item/${id}`} className="ver">{name}</Link></h1>
 
           <p className="item-info">{info}</p>
-          <p className="item-precio">${price}</p>
           <button
             className="agregar snipcart-add-item"
             data-item-id={id}
             data-item-price={price}
-            data-item-url={`/categories/${categ}/${id}`}
+            data-item-url={`/categories/${categ}`}
             data-item-name={name}
             data-item-image={`/assets/${name}.jpg`}
             data-item-description={info}
           >
-            Add to cart
+            Add to cart (${price})
           </button>
         </div>
       </div>

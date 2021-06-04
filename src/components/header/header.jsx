@@ -16,7 +16,6 @@ function Header() {
         </Link>
       </button>
       <div className="NavBar">
-        <NavBar />
       </div>
     </header>
   );

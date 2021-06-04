@@ -4,7 +4,7 @@
   border-color: #87a1b0;
   border-style: solid;
   text-align: center;
-  width: 300px;
+  width: 350px;
   height: 600px;
   background-color: white;
   margin-top: 60px;
@@ -41,4 +41,8 @@
 
 .item-info {
   font-family: "Montserrat", sans-serif;
+}
+.ver {
+  color: black;
+  text-decoration: none;
 }

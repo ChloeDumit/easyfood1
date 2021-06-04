@@ -1,22 +1,23 @@
 import React from "react";
 import "./navBar.css";
 // import { Link } from "react-router-dom";
-import {Navbar, Nav, Container} from 'react-bootstrap';
+import {Navbar, Nav, Container, NavDropdown, Form, FormControl, Button} from 'react-bootstrap';
 
 
 function NavBar() {
   return (
-    <Container>
-    <Navbar>
-    <Nav className="nav_bar">
-      <Nav.Link className='nav_item' href="/categories">All</Nav.Link>
-      <Nav.Link className='nav_item' href="/categories/veggie">Veggie</Nav.Link>
-      <Nav.Link className='nav_item' href="/categories/vegan">Vegan</Nav.Link>
-      <Nav.Link className='nav_item' href="/categories/gluten_free">Gluten Free</Nav.Link>
-      <Nav.Link className='nav_item' href="/categories/traditional">Traditional</Nav.Link>
+    <Navbar expand="lg" className='nav_bar'>
+  <Navbar.Toggle aria-controls="basic-navbar-nav" />
+  <Navbar.Collapse id="basic-navbar-nav">
+    <Nav className="mr-auto">
+      <Nav.Link href="/categories">All</Nav.Link>
+      <Nav.Link href="/categories/veggie">Veggie</Nav.Link>
+      <Nav.Link href="/categories/vegan">Vegan</Nav.Link>
+      <Nav.Link href="/categories/gluten_free">Gluten Free</Nav.Link>
+      <Nav.Link href="/categories/traditional">Traditional</Nav.Link>
     </Nav>
-    </Navbar> 
-    </Container>
+  </Navbar.Collapse>
+</Navbar>
   );
 }
 

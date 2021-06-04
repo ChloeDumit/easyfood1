@@ -6,6 +6,7 @@ import Home from "./components/home/home";
 import ItemListContainer from "./components/itemListContainer/itemListContainer";
 import AllItems from "./components/AllItems/allItems";
 import Footer from "./components/footer/footer";
+import ProductDetailContainer from "./components/ProductDetail/productDetailContainer";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
         <Route exact path="/categories/">
           <HeaderItems />
           <AllItems />
+        </Route>
+        <Route path="/item/:id">
+          < ProductDetailContainer />
         </Route>
       </Switch>
       <Footer />
