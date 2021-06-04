@@ -1,7 +1,7 @@
 import React from "react";
 import "./itemList.css";
 import { Col } from "react-bootstrap";
-import { Link, useLocation } from 'react-router-dom'
+import { Link} from 'react-router-dom'
 
 
 function ItemList({ name, price, id, info, categ }) {
