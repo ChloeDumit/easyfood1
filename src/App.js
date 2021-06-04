@@ -12,15 +12,15 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/">
+        {/* <Route exact path="/">
           <Header />
           <Home />
-        </Route>
+        </Route> */}
         <Route exact path="/categories/:categ">
           <HeaderItems />
           <ItemListContainer />
         </Route>
-        <Route exact path="/categories/">
+        <Route exact path="/">
           <HeaderItems />
           <AllItems />
         </Route>
