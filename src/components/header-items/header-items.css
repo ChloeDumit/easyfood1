@@ -1,11 +1,5 @@
-.header-style {
-  background-color: #efefef;
-  margin-right: 0px;
-  margin-left: 0px;
-  height: 150px;
-}
 .logo {
-  max-width: 85px;
+  max-width: 95px;
   margin-left: 15px;
   margin-top: 5px;
   margin-bottom: auto;
@@ -14,9 +8,6 @@
 .button_header_items,
 .button_header_profile {
   color: #87a1b0;
-  float: right;
-  margin-top: 50px;
-  margin-right: 50px;
   border: none;
   background-color: #efefef;
 }
@@ -26,10 +17,27 @@
   width: 30px;
   height: 30px;
   background-color: #efefef;
+  margin-right: 30px;
 }
 
 .button_header_items:hover,
 .button_header_profile:hover {
-  transform: scale(1.8, 1.8);
+  transform: scale(1.2, 1.2);
   color: #87a1b0;
+}
+.nav_bar_items {
+  background-color: #efefef;
+  width: 100%;
+  max-width: 100%;
+}
+.nav-item {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+
+.snipcart-items-count {
+  margin-right: 0px;
+  margin-left: -20px;
 }

@@ -9,20 +9,11 @@ import { CgProfile } from "react-icons/cg";
 function Header() {
   return (
     <header className="header-style">
-      <Link to="/">
-        <img src={logo} alt="logo" className="logo" />
-      </Link>
-      <button className="button_header_items snipcart-checkout">
-        <ImCart className="cart" />
-        <span class="snipcart-items-count"></span>
-      </button>
-      <button className="button_header_profile snipcart-customer-signin">
-        <CgProfile className="profile" />
-      </button>
+     
       <div className="NavBar">
         <NavBar />
-      </div>
-    </header>
+       </div>
+    </header> 
   );
 }
 

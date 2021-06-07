@@ -23,7 +23,6 @@ function ItemList({ name, price, id, info, categ }) {
             <Link to={`/item/${id}`} className="ver">{name}</Link></h1>
 
           <p className="item-info">{info}</p>
-          <p>{window.location.href}</p>
           <button
             className="agregar snipcart-add-item"
             data-item-id={id}
