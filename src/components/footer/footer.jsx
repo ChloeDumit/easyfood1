@@ -11,7 +11,7 @@ function Footer() {
     <footer className="footer">
       <Container>
         <Row>
-          <p className="contact">Contact Us</p>
+          
           <Col xs="12" sm="6" md="3" lg="3" xl="3">
             <a
               className="instagram-p"
@@ -31,7 +31,7 @@ function Footer() {
             </span>
           </Col>
           <Col xs="12" sm="6" md="3" lg="3" xl="3">
-            <a href="mailto:lapampauruguay@gmail.com" className="mail-p ">
+            <a href="mailto:2106@holbertonschool@gmail.com" className="mail-p ">
               <ImEnvelop className="mail" />
             </a>
           </Col>
