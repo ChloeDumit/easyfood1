@@ -7,6 +7,7 @@ import ItemListContainer from "./components/itemListContainer/itemListContainer"
 import AllItems from "./components/AllItems/allItems";
 import Footer from "./components/footer/footer";
 import ProductDetailContainer from "./components/ProductDetail/productDetailContainer";
+import ReadJson from "./components/itemList/json/import_articles"
 
 function App() {
   return (
@@ -27,8 +28,11 @@ function App() {
           <HeaderItems />
           <AllItems />
         </Route>
-        <Route path="/item/:id">
+        <Route exact path="/item/:id">
           < ProductDetailContainer />
+        </Route>
+        <Route exact path="/item/json">
+          < ReadJson/>
         </Route>
       </Switch>
       <Footer />

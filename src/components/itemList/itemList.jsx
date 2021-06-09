@@ -27,11 +27,13 @@ function ItemList({ name, price, id, info, categ }) {
             className="agregar snipcart-add-item"
             data-item-id={id}
             data-item-price={price}
-            data-item-url={'/'}
+            data-item-url={`/categories/${categ}`}
             data-item-name={name}
             data-item-image={`/assets/${name}.jpg`}
             data-item-description={info}
-          >
+            data-item-custom1-name="Servings"
+            data-item-custom1-options="1|2[+100.00]|3[+200.00]|4[+300.00]">
+          
             Add to cart (${price})
           </button>
         </div>
