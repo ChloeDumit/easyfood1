@@ -1,7 +1,7 @@
 import React from "react";
 import "./navBar.css";
 import logo from "../../images/logo.png";
-import { Navbar, Nav, Dropdown, NavLink, NavItem } from "react-bootstrap";
+import { Navbar, Nav} from "react-bootstrap";
 import { BsFillBagFill } from "react-icons/bs";
 import { CgProfile } from "react-icons/cg";
 
@@ -28,6 +28,9 @@ function NavBar() {
           </Nav.Item>
           <Nav.Item>
             <Nav.Link href="/categories/traditional">Traditional</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link href="/how">How we work</Nav.Link>
           </Nav.Item>
           <button className="button_header_items snipcart-checkout">
             <BsFillBagFill className="cart" />

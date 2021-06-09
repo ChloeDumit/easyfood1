@@ -7,19 +7,19 @@ import ItemListContainer from "./components/itemListContainer/itemListContainer"
 import AllItems from "./components/AllItems/allItems";
 import Footer from "./components/footer/footer";
 import ProductDetailContainer from "./components/ProductDetail/productDetailContainer";
-import ReadJson from "./components/itemList/json/import_articles"
+import HowContainer from "./components/how/howContainer";
 
 function App() {
   return (
     <BrowserRouter>
       <Switch>
         <Route exact path="/">
-          <Redirect to='/home' />
+          <Redirect to="/home" />
         </Route>
-        <Route exact path='/home'>
-             <Header />
-            <Home />
-            </Route>
+        <Route exact path="/home">
+          <Header />
+          <Home />
+        </Route>
         <Route exact path="/categories/:categ">
           <HeaderItems />
           <ItemListContainer />
@@ -29,10 +29,12 @@ function App() {
           <AllItems />
         </Route>
         <Route exact path="/item/:id">
-          < ProductDetailContainer />
+          <HeaderItems />
+          <ProductDetailContainer />
         </Route>
-        <Route exact path="/item/json">
-          < ReadJson/>
+        <Route exact path="/how">
+          <HeaderItems />
+          <HowContainer />
         </Route>
       </Switch>
       <Footer />

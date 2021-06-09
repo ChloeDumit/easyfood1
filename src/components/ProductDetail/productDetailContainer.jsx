@@ -30,7 +30,7 @@ function ProductDetailContainer() {
                             photo={product.data.photo}
                             name={product.data.name}
                             price={product.data.price}
-                            info={product.data.info}
+                            longinfo={product.data.longinfo}
                             categ={product.data.category}
                             />
                         }
