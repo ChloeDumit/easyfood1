@@ -9,9 +9,8 @@ import { Container, Row, Col } from "react-bootstrap";
 function Footer() {
   return (
     <footer className="footer">
-      <Container className='footer_cont'>
+      <Container className="footer_cont">
         <Row>
-          
           <Col xs="6" sm="6" md="3" lg="3" xl="3">
             <a
               className="instagram-p"

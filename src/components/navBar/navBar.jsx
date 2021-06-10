@@ -8,7 +8,7 @@ import { Navbar, Nav} from "react-bootstrap";
 function NavBar() {
   return (
     <div className='navbar'>
-    <Navbar expand="md" className="nav_bar">
+    <Navbar expand="lg" className="nav_bar">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav  className="nav_bar_items">

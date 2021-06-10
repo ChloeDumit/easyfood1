@@ -34,19 +34,33 @@
   margin-left: -20px;
 }
 
+.NavBar0 {
+  background-color: #efefef;
+  width: 100vw;
+  box-shadow: 0 0 5px grey, 0 0 5px grey, 0 0 5px grey, 0 0 5px grey;
+  position: relative;
+}
+
+.NavBar {
+  margin-top: -20px;
+  width: 100vw;
+}
+
 
 @media screen and (max-width: 600px) {
 
   .NavBar0 {
     margin-top: 0px;
+    position: relative;
   }
   .button_header_items {
     margin-left: 10vw;
 
   }
   .NavBar {
-    margin-top: 60px;
-    margin-left: -50px;
+    margin-top: -20px;
+    margin-left: 200px;
+    position: relative;
    }
 }
 

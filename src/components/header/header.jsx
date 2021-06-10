@@ -5,7 +5,7 @@ import "./header.css";
 
 function Header() {
   return (
-    <header className="header-style">
+    <header className="header_style">
       <Link to="/">
         <img src={logo} alt="logo" className="logo" />
       </Link>

@@ -6,29 +6,28 @@ import "./header-items.css";
 // import { ImCart } from "react-icons/im";
 import { CgProfile } from "react-icons/cg";
 import { BsFillBagFill } from "react-icons/bs";
-
+import ButtonUp from "../button/button";
 function Header() {
   return (
-    <header className="header-style">
-     
-      <div className="NavBar0">
-      <a class="navbar-brand" href="/">
-            <img src={logo} alt="logo" className="logo" />
-          </a>
-          <button className="button_header_items snipcart-checkout">
-            <BsFillBagFill className="cart" />
-            <span class="snipcart-items-count"></span>
-          </button>
-          <button className="button_header_profile snipcart-customer-signin">
-            <CgProfile className="profile" />
-          </button>
 
-          </div>
-          <div className='NavBar'>
-        <NavBar className='nav_bar_header' />
-        </div>
-       
-    </header> 
+    <header className="header-style">
+          <ButtonUp />
+      <div className="NavBar0">
+        <a class="navbar-brand" href="/">
+          <img src={logo} alt="logo" className="logo" />
+        </a>
+        <button className="button_header_items snipcart-checkout">
+          <BsFillBagFill className="cart" />
+          <span class="snipcart-items-count"></span>
+        </button>
+        <button className="button_header_profile snipcart-customer-signin">
+          <CgProfile className="profile" />
+        </button>
+      </div>
+      <div className="NavBar">
+        <NavBar className="nav_bar_header" />
+      </div>
+    </header>
   );
 }
 

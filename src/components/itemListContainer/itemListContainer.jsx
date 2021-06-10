@@ -6,6 +6,7 @@ import { useParams } from "react-router-dom";
 import "./itemListContainer.css";
 import { Row, Container } from "react-bootstrap";
 
+
 function ItemContainer() {
   const [product, setProducts] = useState([]);
   const { categ } = useParams();
@@ -55,6 +56,8 @@ function ItemContainer() {
       ) : (
         <p className="mensaje">Cargando productos...</p>
       )}
+
+     
     </Container>
   );
 }

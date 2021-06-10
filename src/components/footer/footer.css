@@ -1,13 +1,13 @@
 .footer {
   background-color: #efefef;
   margin: 0px;
-  height: 60px;
+  box-shadow: 0 -6px 5px grey
 }
 .telefono,
 .mail,
 .facebook,
 .instagram {
-  margin-top: 0px;
+  margin-top: 20px;
   background-color: #efefef;
   color: #87a1b0;
   width: 30px;
