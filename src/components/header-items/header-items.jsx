@@ -6,13 +6,12 @@ import "./header-items.css";
 // import { ImCart } from "react-icons/im";
 import { CgProfile } from "react-icons/cg";
 import { BsFillBagFill } from "react-icons/bs";
-import ButtonUp from "../button/button";
+
 
 function Header() {
   return (
 
     <header className="header-style">
-          <ButtonUp />
       <div className="NavBar0">
         <a class="navbar-brand" href="/">
           <img src={logo} alt="logo" className="logo" />

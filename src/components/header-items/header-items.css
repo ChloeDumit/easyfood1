@@ -1,7 +1,7 @@
 .logo {
-  max-width: 120px;
+  max-width: 105px;
   margin-left: 15px;
-  margin-top: 5px;
+  margin-top: 3px;
   margin-bottom: auto;
   margin-right: auto;
 }
@@ -9,8 +9,8 @@
 .button_header_profile {
   color: #87a1b0;
   border: none;
-  background-color: #efefef;
   margin-top: 20px;
+  background-color: transparent;
 }
 .button_header_items {
   margin-left: 75%;
@@ -27,16 +27,16 @@
 .profile {
   width: 30px;
   height: 30px;
-  background-color: #efefef;
-  
+
 }
 
 .NavBar0 {
   height: 150px;
   background-color: #efefef;
   width: 100vw;
+  
   box-shadow: 0 0 5px grey, 0 0 5px grey, 0 0 5px grey, 0 0 5px grey;
-  position: relative;
+
 }
 
 .NavBar {
@@ -44,20 +44,25 @@
   width: 100vw;
 }
 
+.header-style {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
 
 @media screen and (max-width: 600px) {
 
   .NavBar0 {
     margin-top: 0px;
-    position: relative;
   }
-  .button_header_items {
-    margin-left: 10vw;
+  .button_header_items
+   {
+    margin-left: -70px;
 
   }
+  
   .NavBar {
-    margin-top: -20px;
-    margin-left: 200px;
+    margin-top: -60px;
+    margin-left: 100px;
     position: relative;
    }
 }
