@@ -79,7 +79,7 @@
   }
   .subtitle {
     font-size: 8vw;
-    /* background-color:#87a1b0; */
+    background-color:#87a1b0;
     color: black;
     padding: 10px;
     margin-left: 0px;
@@ -90,13 +90,13 @@
     font-size: 15px;
     
   }
-  .container-info {
+  /* .container-info {
     background-image: url("../../images/background_home.jpg");
     background-repeat: no-repeat;
     background-position-x: -900px ;
     background-size: cover;
     
-  }
+  } */
 }
 
 @media screen and (min-width: 900px) {
