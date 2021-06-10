@@ -56,13 +56,13 @@
   }
   .button_header_items
    {
-    margin-left: -70px;
+    margin-left: -110px;
 
   }
   
   .NavBar {
     margin-top: -60px;
-    margin-left: 100px;
+    margin-left: 70px;
     position: relative;
    }
 }
@@ -73,7 +73,7 @@
     margin-top: 0px;
   }
   .button_header_items {
-    margin-left: 70vw;
+    margin-left: 40vw;
 
   }
   .NavBar {
@@ -81,16 +81,3 @@
    }
 }
 
-@media screen and (min-width: 701px) {
-  
-  .NavBar0 {
-    margin-top: 0px;
-  }
-  .button_header_items {
-    margin-left: 60vw;
-
-  }
-  .NavBar {
-    margin-left: -50px;
-   }
-}
