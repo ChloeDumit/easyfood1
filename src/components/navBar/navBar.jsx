@@ -11,9 +11,6 @@ function NavBar() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav fill className="nav_bar_items">
-          <a class="navbar-brand" href="/">
-            <img src={logo} alt="logo" className="logo" />
-          </a>
           <Nav.Item>
             <Nav.Link href="/categories">All</Nav.Link>
           </Nav.Item>
