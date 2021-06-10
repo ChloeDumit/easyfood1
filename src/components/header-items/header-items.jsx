@@ -11,7 +11,7 @@ function Header() {
   return (
     <header className="header-style">
      
-      <div className="NavBar">
+      <div className="NavBar0">
       <a class="navbar-brand" href="/">
             <img src={logo} alt="logo" className="logo" />
           </a>
@@ -22,9 +22,12 @@ function Header() {
           <button className="button_header_profile snipcart-customer-signin">
             <CgProfile className="profile" />
           </button>
-        <NavBar />
-        
-       </div>
+
+          </div>
+          <div className='NavBar'>
+        <NavBar className='nav_bar_header' />
+        </div>
+       
     </header> 
   );
 }

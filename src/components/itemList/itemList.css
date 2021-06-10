@@ -46,3 +46,23 @@
   color: black;
   text-decoration: none;
 }
+
+@media screen and (max-width: 600px) {
+
+  .itemCard {
+    width: 90%
+  }
+  .agregar {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  
+  .itemCard {
+    width: 90%
+  }
+  .agregar {
+    font-size: 1.2vw;
+  }
+}

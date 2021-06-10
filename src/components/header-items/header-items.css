@@ -33,3 +33,33 @@
   margin-right: 0px;
   margin-left: -20px;
 }
+
+
+@media screen and (max-width: 600px) {
+
+  .NavBar0 {
+    margin-top: 0px;
+  }
+  .button_header_items {
+    margin-left: 58vw;
+
+  }
+  .NavBar {
+    margin-top: 15px;
+    margin-left: -50px;
+   }
+}
+
+@media screen and (min-width: 601px) {
+  
+  .NavBar0 {
+    margin-top: 0px;
+  }
+  .button_header_items {
+    margin-left: 70vw;
+
+  }
+  .NavBar {
+    margin-left: -50px;
+   }
+}
