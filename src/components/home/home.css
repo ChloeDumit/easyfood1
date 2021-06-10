@@ -71,17 +71,31 @@
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 600px) {
   .principal{
-    font-size: 7vw;
+    font-size: 18vw;
+    text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white;
   }
   
   .principal2 {
-    font-size: 7vw;
+    font-size: 18vw;
+    text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white;
   }
   .subtitle {
-    font-size: 3vw;
+    font-size: 8vw;
+    /* background-color:#87a1b0; */
+    color: black;
+    padding: 10px;
+    margin-left: 0px;
+    text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white;
   }
   .button {
     width: 150px;
-    font-size: 25px;
+    font-size: 15px;
+    
+  }
+  .container-info {
+    background-image: url("../../images/background_home.jpg");
+    background-repeat: no-repeat;
+    background-position-x: -400px ;
+    background-size: 1000px;
   }
 }

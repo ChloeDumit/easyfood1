@@ -9,10 +9,10 @@ import { Container, Row, Col } from "react-bootstrap";
 function Footer() {
   return (
     <footer className="footer">
-      <Container>
+      <Container className='footer_cont'>
         <Row>
           
-          <Col xs="12" sm="6" md="3" lg="3" xl="3">
+          <Col xs="6" sm="6" md="3" lg="3" xl="3">
             <a
               className="instagram-p"
               href="https://www.instagram.com/easyfood/"
@@ -20,17 +20,17 @@ function Footer() {
               <ImInstagram className="instagram" />
             </a>
           </Col>
-          <Col xs="12" sm="6" md="3" lg="3" xl="3">
+          <Col xs="6" sm="6" md="3" lg="3" xl="3">
             <a className="facebook-p " href="https://www.facebook.com/easyfood">
               <ImFacebook2 className="facebook" />
             </a>
           </Col>
-          <Col xs="12" sm="6" md="3" xl="3">
+          <Col xs="6" sm="6" md="3" xl="3">
             <span className=" telefono-p ">
               <ImPhone className="telefono" />
             </span>
           </Col>
-          <Col xs="12" sm="6" md="3" lg="3" xl="3">
+          <Col xs="6" sm="6" md="3" lg="3" xl="3">
             <a href="mailto:2106@holbertonschool@gmail.com" className="mail-p ">
               <ImEnvelop className="mail" />
             </a>

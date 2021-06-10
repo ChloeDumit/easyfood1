@@ -36,3 +36,21 @@
   font-family: "Montserrat", sans-serif;
   margin-left: 45%;
 }
+
+
+@media screen and (max-width: 600px) {
+  .instagram {
+    margin-left: 50px;
+  }
+  .facebook {
+    margin-left: 50px;
+  }
+  .telefono {
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+  .mail {
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+}
