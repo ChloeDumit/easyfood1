@@ -1,5 +1,5 @@
 .logo {
-  max-width: 95px;
+  max-width: 120px;
   margin-left: 15px;
   margin-top: 5px;
   margin-bottom: auto;
@@ -16,25 +16,23 @@
   margin-left: 75%;
 }
 
+.cart {
+  margin-right: -380px;
+}
+
+.profile {
+  margin-right: -500px;
+}
 .cart,
 .profile {
   width: 30px;
   height: 30px;
   background-color: #efefef;
-  margin-right: 30px;
-}
-
-.button_header_items:hover,
-.button_header_profile:hover {
-  transform: scale(1.2, 1.2);
-  color: #87a1b0;
-}
-.snipcart-items-count {
-  margin-right: 0px;
-  margin-left: -20px;
+  
 }
 
 .NavBar0 {
+  height: 150px;
   background-color: #efefef;
   width: 100vw;
   box-shadow: 0 0 5px grey, 0 0 5px grey, 0 0 5px grey, 0 0 5px grey;
@@ -42,7 +40,7 @@
 }
 
 .NavBar {
-  margin-top: -20px;
+  margin-top: -50px;
   width: 100vw;
 }
 

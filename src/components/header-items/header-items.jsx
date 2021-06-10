@@ -7,6 +7,7 @@ import "./header-items.css";
 import { CgProfile } from "react-icons/cg";
 import { BsFillBagFill } from "react-icons/bs";
 import ButtonUp from "../button/button";
+
 function Header() {
   return (
 
@@ -18,7 +19,7 @@ function Header() {
         </a>
         <button className="button_header_items snipcart-checkout">
           <BsFillBagFill className="cart" />
-          <span class="snipcart-items-count"></span>
+
         </button>
         <button className="button_header_profile snipcart-customer-signin">
           <CgProfile className="profile" />
