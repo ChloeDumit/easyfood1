@@ -4,8 +4,8 @@ import logo from "../../images/logo.png";
 // import { Link } from "react-router-dom";
 import "./header-items.css";
 // import { ImCart } from "react-icons/im";
-import { CgProfile } from "react-icons/cg";
-import { BsFillBagFill } from "react-icons/bs";
+// import { CgProfile } from "react-icons/cg";
+// import { BsFillBagFill } from "react-icons/bs";
 
 function Header() {
   return (

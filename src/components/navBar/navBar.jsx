@@ -1,6 +1,6 @@
 import React from "react";
 import "./navBar.css";
-import logo from "../../images/logo.png";
+// import logo from "../../images/logo.png";
 import { Navbar, Nav} from "react-bootstrap";
 import { BsFillBagFill } from "react-icons/bs";
 import { CgProfile } from "react-icons/cg";
