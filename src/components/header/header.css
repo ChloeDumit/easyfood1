@@ -37,3 +37,18 @@
   transform: scale(0.8, 0.8) !important;
   color: #efefef;
 }
+
+
+@media screen and (max-width: 600px) {
+  .button_header {
+    width: 30vw;
+    font-size: 2vw;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .button_header {
+    width: 200px;
+    font-size: 2vw;
+  }
+}
