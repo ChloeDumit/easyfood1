@@ -4,8 +4,8 @@ import logo from "../../images/logo.png";
 // import { Link } from "react-router-dom";
 import "./header-items.css";
 // import { ImCart } from "react-icons/im";
-// import { CgProfile } from "react-icons/cg";
-// import { BsFillBagFill } from "react-icons/bs";
+import { CgProfile } from "react-icons/cg";
+import { BsFillBagFill } from "react-icons/bs";
 
 function Header() {
   return (
@@ -15,6 +15,13 @@ function Header() {
       <a class="navbar-brand" href="/">
             <img src={logo} alt="logo" className="logo" />
           </a>
+          <button className="button_header_items snipcart-checkout">
+            <BsFillBagFill className="cart" />
+            <span class="snipcart-items-count"></span>
+          </button>
+          <button className="button_header_profile snipcart-customer-signin">
+            <CgProfile className="profile" />
+          </button>
         <NavBar />
         
        </div>

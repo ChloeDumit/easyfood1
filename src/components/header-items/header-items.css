@@ -10,6 +10,10 @@
   color: #87a1b0;
   border: none;
   background-color: #efefef;
+  margin-top: 20px;
+}
+.button_header_items {
+  margin-left: 75%;
 }
 
 .cart,
@@ -25,18 +29,6 @@
   transform: scale(1.2, 1.2);
   color: #87a1b0;
 }
-.nav_bar_items {
-  background-color: #efefef;
-  width: 100%;
-  max-width: 100%;
-}
-.nav-item {
-  display: inline-block;
-  text-decoration: none;
-  margin-top: 30px;
-}
-
-
 .snipcart-items-count {
   margin-right: 0px;
   margin-left: -20px;
