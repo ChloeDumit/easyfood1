@@ -98,3 +98,17 @@
     
   }
 }
+
+@media screen and (min-width: 900px) {
+  .container-info {
+  background-image: url("../../images/background_home.jpg");
+    background-repeat: no-repeat;
+    background-position-x: 200px ;
+    background-size: cover;
+}
+.button {
+  width: 20vw;
+  font-size: 25px;
+  
+}
+}
